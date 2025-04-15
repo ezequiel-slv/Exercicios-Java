@@ -7,6 +7,7 @@ public class TesteCarro {
         Carro carro = new Carro();
         Carro altavel = new Carro();
         Carro baixavel = new Carro();
+        Carro conservacao = new Carro();
 
         carro.ano = 2023;
         carro.modelo = "volkswagen polo 2023";
@@ -22,6 +23,11 @@ public class TesteCarro {
         baixavel.modelo = "volkswagen polo 2023";
         baixavel.velocidade = 120;
         baixavel.DiminuiVelocidade(baixavel);
+
+        conservacao.ano = 2023;
+        conservacao.modelo = "volkswagen polo 2023";
+        conservacao.velocidade = 100;
+        conservacao.NovoOuVelho(conservacao);
 
 
 

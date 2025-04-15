@@ -28,4 +28,15 @@ public class Carro {
         }
 
     }
+
+    public void NovoOuVelho(Carro conservacao){
+        System.out.println("-------");
+        int ano = conservacao.ano;
+        if (ano >= 2020){
+            System.out.println("Carro novo");
+        }else{
+            System.out.println("Carro antigo");
+        }
+
+    }
 }
