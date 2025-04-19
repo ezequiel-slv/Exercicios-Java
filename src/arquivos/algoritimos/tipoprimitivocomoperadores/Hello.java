@@ -1,4 +1,4 @@
-package arquivos.algoritimos;
+package arquivos.algoritimos.tipoprimitivocomoperadores;
 
 public class Hello {
     public static void main(String[] args) {
